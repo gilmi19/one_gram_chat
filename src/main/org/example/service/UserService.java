@@ -43,7 +43,5 @@ public class UserService {
     public User findByName(String name) throws UserNotFoundException {
         return userRepository.findByName(name);
     }
-
-
 }
 

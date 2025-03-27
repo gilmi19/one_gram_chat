@@ -74,5 +74,4 @@ public class MessageService {
         Message message = new Message(content, MessageType.OUTCOME, currentUser, userTo);
         userService.addMessage(message, userTo.getName());
     }
-
 }
